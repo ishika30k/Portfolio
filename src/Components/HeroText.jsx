@@ -9,7 +9,7 @@ const HeroText = () => {
     }
 
   return (
-    <div className="relative z-50 mt-20 ml-100 text-center md:mt-40 md:text-left rounded-3xl">
+    <div className="relative z-50 mt-20 lg:ml-110 md:ml-30 text-center md:mt-40 md:text-left rounded-3xl">
         {/* Desktop View */}
         <div className="flex-col hidden md:flex c-space">
             <motion.h1 className="text-4xl font-medium "
@@ -49,7 +49,7 @@ const HeroText = () => {
             animate="visible"
             transition={{delay:1}}>
             <motion.p>Hi, I'm Ishika</motion.p>
-        </div>
+        
         <motion.p className="text-5xl font-black text-neutral-300 md:hidden"
         variants={variants}
             initial="hidden"
@@ -65,6 +65,7 @@ const HeroText = () => {
             initial="hidden"
             animate="visible"
             transition={{delay:1.8}}>Web Applications</motion.p>
+        </div>
     </div>
   )
 }
