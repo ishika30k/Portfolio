@@ -35,7 +35,7 @@ const Contact = () => {
         "template_6dydeas",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Ishika",
           from_email: formData.email,
           to_email: "ishikakh@gmail.com",
           message: formData.message,
